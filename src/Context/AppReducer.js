@@ -1,4 +1,4 @@
-export default (state, action) =>{
+const handleCart = (state, action) =>{
   switch(action.type){
 
       case 'Remove_User':
@@ -32,3 +32,5 @@ export default (state, action) =>{
           return state
   }
 }
+
+export default handleCart;
